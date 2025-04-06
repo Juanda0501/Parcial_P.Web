@@ -1,0 +1,138 @@
+.login-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FCFDFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+.circle {
+    position: absolute;
+    border-radius: 50%;
+}
+  
+.circle-blue {
+    bottom: 541px;
+    right: 160px;
+    width: 240px;
+    height: 240px;
+    background-color: #65BCFF;
+}
+  
+.circle-purple {
+    bottom: 460px;
+    left: 176px;
+    width: 350px;
+    height: 350px;
+    background-color: #7377FF;
+}
+  
+.user-icon {
+    width: 110px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+    margin-top: 175px;
+}
+  
+.user-icon img {
+    width: 125px; 
+    height: 125px;
+}
+  
+
+.input-field {
+    width: 260px;
+    height: 47px;
+    padding: 17px;
+    margin: 10px;
+    border: none;
+    border-radius: 14px;
+    background-color: #7377FF;
+    font-size: 18px;
+    color: #FCFDFF;
+    text-align: center;
+    box-sizing: border-box;
+}
+  
+.input-field::placeholder {
+    color: #bcbdeb;
+}
+  
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    color: #40AAFF;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 60px;
+    font-size: 16px;
+}
+
+.remember-me .custom-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: solid #40AAFF;
+    background-color: #FCFDFF;
+    position: relative;
+    margin-right: 1.2rem;
+    cursor: pointer;
+}
+
+.remember-me .custom-checkbox:checked {
+    background-color: #40AAFF;
+    border-color: #40AAFF;
+}
+
+
+.sign-in-btn {
+    width: 170px;
+    height: 47px;
+    padding: 1rem;
+    background-color: #40AAFF;
+    color: #FCFDFF;
+    border: none;
+    border-radius: 12px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-sizing: border-box;
+}
+  
+.sign-in-btn:hover {
+    background-color: #1059ce;
+}
+  
+
+.forgot-password {
+    margin-top: 16px;
+    color: #40AAFF;
+    text-decoration: none;
+    font-size: 15px;
+}
+  
+.forgot-password:hover {
+    text-decoration: underline;
+    
+}
+
+.remember-me .custom-checkbox:checked::after {
+    content: '';
+    position: absolute;
+    left: 4px;
+    bottom: 2px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg); 
+}
